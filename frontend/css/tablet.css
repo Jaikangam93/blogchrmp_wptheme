@@ -1,0 +1,50 @@
+/* Tablet Size Apple Ipad 2,3 Mini  */  
+@media only screen and (min-width : 768px)   and (max-width : 1023px)
+{
+    
+
+    .bundle-plus {
+        margin-top: 0px;
+        padding-bottom: 10px;
+    }
+    .option1{
+        padding-bottom:20px;
+    }
+    .course-page-padding{
+        padding-bottom:15px;
+    }
+    .header-link-padding{
+        padding: 5px 0px;
+    }
+    .hero-heading{
+        font-size: 25px;
+    }
+
+} 
+
+
+/* Small Tablet size 600x800 */  
+@media only screen and (min-width : 600px)  and (max-width : 800px)  
+{
+    .whyhr .list{
+    padding-left:-50px;
+    }
+    
+    .bundle-plus {
+        margin-top: 0px;
+        padding-bottom: 10px;
+    }
+    .option1{
+        padding-bottom:20px;
+    }
+    .course-page-padding{
+        padding-bottom:15px;
+    }
+    .header-link-padding{
+        padding: 5px 0px;
+      }
+    .hero-heading{
+    font-size: 27px;
+    }
+   
+} 

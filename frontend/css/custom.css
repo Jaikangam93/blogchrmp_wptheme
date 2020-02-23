@@ -1,0 +1,856 @@
+/* Add here all your CSS customizations */
+
+/* 
+-------------------------------------------------
+Common for all 
+-------------------------------------------------
+*/
+.btn-chrmp {
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+  padding: 10px 22px;
+  border: 1px solid transparent;
+  border-radius: .25rem;
+  background: #004a99;
+  background: -webkit-gradient(linear, left top, left bottom, from(#004a99), to(#004a99));
+  background: -moz-linear-gradient(top, #004a99, #004a99);
+  background: linear-gradient(to bottom, #004a99, #004a99);
+  
+  font: normal normal bold 13px roboto;
+  color: #ffffff;
+  text-decoration: none;
+  text-transform: uppercase
+}
+.btn-chrmp:hover,
+.btn-chrmp:focus {
+  border: 1px solid transparent;
+  background: #0059b8;
+  background: -webkit-gradient(linear, left top, left bottom, from(#0059b8), to(#0059b8));
+  background: -moz-linear-gradient(top, #0059b8, #0059b8);
+  background: linear-gradient(to bottom, #0059b8, #0059b8);
+  color: #ffffff;
+  text-decoration: none;
+  text-transform: uppercase
+}
+.btn-chrmp:active {
+  background: #002c5c;
+  background: -webkit-gradient(linear, left top, left bottom, from(#002c5c), to(#004a99));
+  background: -moz-linear-gradient(top, #002c5c, #004a99);
+  background: linear-gradient(to bottom, #002c5c, #004a99);
+}
+/* button that use on the All course - course details button */
+.btn-index {
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+  padding: 8px 15px;
+  border: 1px solid transparent;
+  border-radius: .25rem;
+  background: #004a99;
+  background: -webkit-gradient(linear, left top, left bottom, from(#004a99), to(#004a99));
+  background: -moz-linear-gradient(top, #004a99, #004a99);
+  background: linear-gradient(to bottom, #004a99, #004a99);
+  
+  font: normal normal bold 15px roboto;
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 400;
+
+}
+.btn-index:hover,
+.btn-index:focus {
+  border: 1px solid transparent;
+  background: #0059b8;
+  background: -webkit-gradient(linear, left top, left bottom, from(#0059b8), to(#0059b8));
+  background: -moz-linear-gradient(top, #0059b8, #0059b8);
+  background: linear-gradient(to bottom, #0059b8, #0059b8);
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 400;
+}
+.btn-index:active {
+  background: #002c5c;
+  background: -webkit-gradient(linear, left top, left bottom, from(#002c5c), to(#004a99));
+  background: -moz-linear-gradient(top, #002c5c, #004a99);
+  background: linear-gradient(to bottom, #002c5c, #004a99);
+}
+
+
+/*
+--------------------------------
+ Open that use on the Index Page 
+--------------------------------
+*/
+/* On hover change the grey scale to color on the image on the Index Page  */
+.client  img {
+  -webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+
+.client img:hover  {
+	-webkit-filter: grayscale(0);
+	filter: grayscale(0);
+}
+
+
+
+
+/* All Course nav css*/
+.allcourse{
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin: auto;
+    list-style: none;
+    margin: auto;
+}
+.course-nav{
+  margin: auto;
+  width: 50%;
+  padding:10px 0 10px 0px;
+}
+
+
+/* path img style on the home page */
+.path img {
+  width: 100px; 
+  height: 100px;
+}
+
+
+/* Course card */
+.courseCard {
+  display: inline-block;
+  position: relative;
+  width: 100%;
+  margin-bottom: 30px;
+  border-radius: 6px;
+  color: rgba(0, 0, 0, 0.87);
+  background: #fff;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+}
+
+.courseCard .table {
+  padding: 15px 20px;
+}
+
+.courseCard .courseCard-image img {
+  width: 180px;
+  height: 180px;;
+  border-radius: 6px;
+  pointer-events: none;
+  
+}
+
+.courseCard .courseCard-caption {
+  font-size: 18px;
+  margin-top: -10px;
+}
+
+.courseCard-description {
+  line-height: 21px;
+  font-size: 15px;
+}
+
+.courseCard .tag{
+  margin-top: -7px;
+  margin-bottom: 10px;
+}
+
+/* End the course Card */
+
+.whyhr img {
+  width: 250px; 
+  height: 250px;
+}
+
+/* Customer Testimonial */
+#customers-testimonials .shadow-effect p {
+  font-family: Georgia, serif;
+  line-height: 1.5;
+  margin: 0 0 17px 0;
+  font-weight: 300;
+}
+
+.shadow-effect {
+  background: #fff;
+  padding: 20px;
+  border-radius: 4px;
+  text-align: center;
+  border: 1px solid #ececec;
+  box-shadow: 0 19px 38px rgba(0, 0, 0, 0.1), 0 15px 12px rgba(0, 0, 0, 0.02);
+}
+
+.testimonial-name {
+  margin: -17px auto 0;
+  display: table;
+  width: auto;
+  background: #2960A1;
+  padding: 9px 35px;
+  border-radius: 5px;
+  text-align: center;
+  color: #fff;
+  box-shadow: 0 9px 18px rgba(0, 0, 0, 0.12), 0 5px 7px rgba(0, 0, 0, 0.05);
+}
+.testimonial-name:hover{
+  background: linear-gradient(to right, #3E6DCF, #1FAEA7);
+}
+
+#customers-testimonials .item {
+  text-align: center;
+  padding: 40px 10px 40px 10px;
+  margin-bottom: 30px;
+  opacity: 0.2;
+  -webkit-transform: scale3d(0.8, 0.8, 1);
+  transform: scale3d(0.8, 0.8, 1);
+  transition: all 0.3s ease-in-out;
+}
+#customers-testimonials .owl-item.active.center .item {
+  opacity: 1;
+  -webkit-transform: scale3d(1, 1, 1);
+  transform: scale3d(1, 1, 1);
+}
+.owl-carousel .owl-item img {
+  -webkit-transform-style: preserve-3d;
+          transform-style: preserve-3d;
+  max-width: 90px;
+  margin: 0 auto 17px;
+}
+#customers-testimonials.owl-carousel .owl-dots .owl-dot.active span,
+#customers-testimonials.owl-carousel .owl-dots .owl-dot:hover span {
+  background: #2960A1;
+  -webkit-transform: translate3d(0px, -50%, 0px) scale(0.7);
+          transform: translate3d(0px, -50%, 0px) scale(0.7);
+}
+#customers-testimonials.owl-carousel .owl-dots {
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+}
+#customers-testimonials.owl-carousel .owl-dots .owl-dot {
+  display: inline-block;
+}
+#customers-testimonials.owl-carousel .owl-dots .owl-dot span {
+  background: #2960A1;
+  display: inline-block;
+  height: 20px;
+  margin: 0 2px 5px;
+  -webkit-transform: translate3d(0px, -50%, 0px) scale(0.3);
+          transform: translate3d(0px, -50%, 0px) scale(0.3);
+  -webkit-transform-origin: 50% 50% 0;
+          transform-origin: 50% 50% 0;
+  transition: all 250ms ease-out 0s;
+  width: 20px;
+}
+/* Customer Testimonails End here */
+
+/*
+--------------------------------
+ Close that use on the Index Page 
+--------------------------------
+*/
+
+/* For 1024 Resolution */  
+@media only screen and (min-width : 768px)   
+{ .allcourse {
+   padding-left: 70px; 
+  }
+} 
+
+@media only screen and (min-width : 1024px)   
+{
+  .whyhr .list{
+    padding-left:60px;
+  }
+} 
+
+/* Table which is on the Course Page */
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+ 
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+
+/* Sytle on Table */
+#customers {
+  font-family: "Roboto", Helvetica;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#customers td, #customers th {
+ 
+  padding: 20px;
+}
+
+#customers tr:nth-child(even){background-color: #f2f2f2;}
+
+#customers tr:hover {background-color: #ddd;}
+
+#customers th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #4CAF50;
+  color: white;
+}
+
+.banner-certificate{
+  width: 100px;
+  border-right: 1px solid #979797;
+}
+
+.banner-certificate-image img{
+  width: 90px;
+  height:40px;
+  margin-left:70px;
+  border-radius:5px;
+}
+
+.sitemap li a{
+  text-decoration:none;
+}
+
+.banner-certificate-iso img{
+  width: 40px;
+  height:40px;
+  margin-left:70px;
+  border-radius:5px;
+}
+
+.lastdiv{
+  padding-top: 40px; 
+  padding-bottom:40px; 
+}
+.lastdiv a{
+  text-decoration: none;
+}
+.lastdiv img {
+  width: 200px; 
+  height: 200px;
+}
+
+.course-nav p{
+  margin:5px !important;
+  text-align: center;
+  color:#2960A1 !important;
+}
+
+.more-less{
+  float: right;
+  padding:5px;
+  size: 10px; 
+}
+
+.exam img {
+  width: 280px; 
+  height: 250px;
+}
+
+[data-toggle="collapse"][aria-expanded="true"] > .js-rotate-if-collapsed
+{
+    -webkit-transform: rotate(180deg);
+    -moz-transform:    rotate(180deg);
+    -ms-transform:     rotate(180deg);
+    -o-transform:      rotate(180deg);
+    transform:         rotate(180deg);
+}
+
+.morecontent span {
+  display: none;
+}
+.morelink {
+  display: block;
+}
+
+table {
+  width:100%;
+  border: 1px solid #000;
+}
+table, th, td {
+  border: 1px solid #000;
+  border-collapse: collapse;
+}
+th, td {
+  padding: 15px;
+  text-align: center;
+}
+table#t01 tr:nth-child(odd) {
+  background-color: #fff;
+}
+table#t01 tr:nth-child(even) {
+ background-color: #fff;
+}
+table#t01 th {
+  background-color : #2960A1;
+  color: white;
+}
+
+table#fellow tr:nth-child(odd) {
+  background-color: #ecf6fc;
+}
+table#fellow tr:nth-child(even) {
+ background-color: #fff;
+}
+table#fellow th {
+  background-color : #2960A1;
+  color: white;
+}
+
+.wrapper{
+  text-align:center;
+  margin:-10px auto;
+}
+
+/* inr and usd switch */
+.tab-slider--nav {
+
+}
+
+.tab-slider--tabs {
+  display: block;
+  text-align:center;
+  margin-top: -15px;
+  padding: 0;
+  list-style: none;
+  position: relative;
+  border-radius: 35px;
+  overflow: hidden;
+  background: #fff;
+  height: 35px;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+.tab-slider--tabs:after {
+  content: "";
+  width: 50%;
+  background: #f47621;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: all 250ms ease-in-out;
+  border-radius: 35px;
+}
+.tab-slider--tabs.slide:after {
+  left: 50%;
+}
+
+.tab-slider--trigger {
+  font-size: 12px;
+  line-height: 1;
+  font-weight: bold;
+  color: #345F90;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 11px 20px;
+  position: relative;
+  z-index: 2;
+  cursor: pointer;
+  display: inline-block;
+  transition: color 250ms ease-in-out;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+.tab-slider--trigger.active {
+  color: #fff;
+}
+
+.tab-slider--body {
+  margin-bottom: 20px;
+}
+
+
+
+/* Card below the course testimonials */
+.TestiCard {
+  display: inline-block;
+  position: relative;
+  width: 100%;
+  margin-bottom: 30px;
+  border-radius: 6px;
+  color: rgba(0, 0, 0, 0.87);
+  background: #fff;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+  padding: 15px 20px;
+}
+.TestiCard .TestiCard-image{
+  padding-bottom: 10px;
+}
+
+.TestiCard .TestiCard-image img {
+  align-content: left;
+  width: 60px;
+  height: 60px;
+
+  pointer-events: none;
+  
+}
+.TestiCard .tag{
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+/* Testicard End here */
+
+.program-exam{
+  display: inline-block;
+  position: relative;
+  width: 100%;
+  margin-bottom: 30px;
+  border-radius: 6px;
+  color: rgba(0, 0, 0, 0.87);
+  background: #fff;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+  padding: 10px 20px 25px 20px;
+}
+.program-exam img{
+  height: 230px;
+  width: 230px;
+}
+
+.program-exam h6{
+  color:#2960A1;
+}
+
+/* Pricing and Fee and Plan */
+.FeeCard {
+  position: relative;
+  height: auto;
+  background: #fff;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+  border-radius: 10px;
+  margin: 0 auto;
+  padding: 5px 15px 30px 0px;
+  -webkit-box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+.FeeCard:hover {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+.FeeCard::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 40%;
+  background: rgba(255, 255, 255, 0.1);
+  z-index: 1;
+  -webkit-transform: skewY(-5deg) scale(1.5);
+  transform: skewY(-5deg) scale(1.5);
+}
+
+
+.feetitle h2 {
+  position: relative;
+  margin: 20px 0 0;
+  padding: 0;
+  color: #fff;
+  font-size: 28px;
+  z-index: 2;
+}
+.FeeCard a {
+  position: relative;
+  z-index: 2;
+  cursor: pointer;
+  
+}
+.Feecard a:hover {
+  text-decoration: none;
+}
+.option ul li {
+  margin: 10px 10px 10px -15px;
+  padding: 0;
+  list-style: none;
+  align-content: left;
+  font-size: 14px;
+}
+/* Close Pricing and Fee and Plan */
+
+#bei-header{
+  background:url('/frontend/img/ban2.jpg');
+  background-size:cover;
+  background-position:center;
+  height: 430px;
+
+}
+
+/* Learning Outcome card */
+.LearnOutCard {
+  display: inline-block;
+  position: relative;
+  width: 100%;
+  margin-bottom: 20px;
+  border-radius: 6px;
+  color: rgba(0, 0, 0, 0.87);
+  background: #fff;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+  padding: 10px 15px;
+}
+
+
+.LearnOutCard::before {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 40%;
+  background: rgba(255, 255, 255, 0.1);
+  z-index: 1;
+  -webkit-transform: skewY(-5deg) scale(1.5);
+  transform: skewY(-5deg) scale(1.5);
+}
+.LearnOutCard .LearnOutCard-image{
+  padding-bottom:5px;
+}
+.LearnOutCard .LearnOutCard-image img {
+  width: 80px;
+  height: 80px;
+  pointer-events: none;
+}
+.LearnOutCard .tag {
+  font-size: 13px;
+  font-weight: 400 !important;
+  color:#2960A1;
+  margin: 0 0 10px 0;
+  text-align: center;
+}
+
+.LearnOutCard h6{
+ font-size:15px; 
+ margin:0 0 6px 0;
+ }
+
+
+/* Close the Learning outcome */
+
+/* ----------------------- Three Bundle Card ----------------------*/
+.bundleOptionCard{
+  display: inline-block;
+  position: relative;
+  width: 100%;
+  margin-bottom: 20px;
+  border-radius: 6px;
+  color: rgba(0, 0, 0, 0.87);
+  background: #fff;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+  padding: 10px 15px;
+}
+.bundleOptionCard:hover {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+.bundleOptionCard::before {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 40%;
+  background: rgba(255, 255, 255, 0.1);
+  z-index: 1;
+  -webkit-transform: skewY(-5deg) scale(1.5);
+  transform: skewY(-5deg) scale(1.5);
+}
+.bundleOptionCard .bundleOptionCard-image{
+  padding-bottom:5px;
+}
+.bundleOptionCard .bundleOptionCard-image img {
+  width: 80px;
+  height: 80px;
+  pointer-events: none;
+}
+.bundleOptionCard .tag {
+  font-size: 13px;
+  font-weight: 400 !important;
+  color:#2960A1;
+  margin: 0 0 10px 0;
+  text-align: center;
+}
+
+.bundleOptionCard h6{
+ font-size:15px; 
+ margin:0 0 6px 0;
+ }
+
+
+
+
+/* Bundle Plus icon */
+.bundle-plus{
+  font-size:40px;
+  margin-top:90px;
+}
+
+/* Bundle inr and usd toogle */
+.Bundlewrapper{
+  text-align:center;
+  margin:-10px auto;
+}
+.tab-Bundleslider--nav {
+
+}
+
+.tab-Bundleslider--tabs {
+  display: block;
+  text-align:center;
+  margin-top: -15px;
+  padding: 0;
+  list-style: none;
+  position: relative;
+  border-radius: 35px;
+  overflow: hidden;
+  background: #fff;
+  height: 35px;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+.tab-Bundleslider--tabs:after {
+  content: "";
+  width: 50%;
+  background: #f47621;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: all 250ms ease-in-out;
+  border-radius: 35px;
+}
+.tab-Bundleslider--tabs.slide:after {
+  left: 50%;
+}
+.tab-Bundleslider--trigger {
+  font-size: 12px;
+  line-height: 1;
+  font-weight: bold;
+  color: #345F90;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 11px 20px;
+  position: relative;
+  z-index: 2;
+  cursor: pointer;
+  display: inline-block;
+  transition: color 250ms ease-in-out;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+.tab-Bundleslider--trigger.active {
+  color: #fff;
+}
+
+.tab-Bundleslider--body {
+  margin-bottom: 20px;
+}
+
+.tab-Bundleslider h6{
+  font-weight: 450;
+  line-height: 22px;
+}
+
+
+
+
+/* Course Page css */
+
+/* Page Header Custom - Create your Own */
+.page-header.single-course-header {
+	
+	background-repeat: repeat;
+	background-color: #037ACC;
+	padding: 0;
+	overflow: hidden;
+}
+
+.page-header.single-course-header .row {
+	position: relative;
+}
+
+.page-header.single-course-header h1 {
+	color: #FFF;
+	margin-bottom: 5px;
+	margin-top: 25px;
+	border: 0;
+	
+}
+.singlecourse-header-nav {
+  margin-top: -15px;
+  padding-bottom: 5px;
+ }
+.singlecourse-header-nav li{
+ padding-right: 10px;
+}
+.header-subtitle{
+  color: #fff;
+  font-family: 'Raleway', sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.singlecourse-headercertificate{
+  width: 100px;
+  color:#fff;
+  border-right: 1px solid #fff;
+}
+
+.singlecourse-certificate-image img{
+  width: 90px;
+  height:35px;
+  margin-left:60px;
+}
+
+.price h4, h6{
+  font-family: 'Roboto',sans-serif;
+}
+
+
+div.sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 180;
+  padding: 5px;
+  background-color: #cae8ca;
+  border: 2px solid #4CAF50;
+}
+
+.footer_banner {
+  width: 100%;
+  margin-bottom: -50px;
+  margin-top:-30px"
+}
+ 
+.wave{
+  width: 100%;
+  height: auto;
+  z-index: 1;
+}
+
+.call_to_action_banner{
+  margin-bottom: -50px;
+  margin-top:-80px;
+}

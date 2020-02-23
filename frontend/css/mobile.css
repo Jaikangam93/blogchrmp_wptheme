@@ -1,0 +1,83 @@
+/* Iphone 5 320 px  */  
+@media only screen and (min-width : 320px)  and (max-width : 568px)  
+{
+  .course-nav  {
+    display: none;
+  }
+
+  /* BEI Course Page */
+  .bundle-plus {
+      margin-top: 0px;
+      padding-bottom: 10px;
+  }
+  .option1{
+      padding-bottom:20px;
+  }
+
+  /* Fee Plan */
+  .plan1{
+    padding-bottom: 30px;
+  }
+  .plan2{
+    padding-bottom: 30px;
+  }
+  .plan3{
+    padding-bottom: 30px;
+  }
+
+  .call_to_action_banner{
+    margin-top:0px;
+  }
+  .course-page-padding{
+    padding-bottom:15px;
+  }
+  .header-link-padding{
+    padding: 5px 0px;
+  }
+  .hero-heading{
+    font-size: 23px;
+  }
+} 
+
+
+
+/* Bellow code new to be rewrite or replace from other */
+/* Hide course image on the md and sm and also xs*/
+@media screen and (max-width: 768px) {
+  .course-image  {
+     display: none;
+   }
+    .list.list-icons.list-icons-sm.list-icons-style-3 li {
+    padding-left: -20px!important;
+  }
+
+  #navSecondary {
+    position: initial !important;
+    }
+
+  .hero-heading{
+    font-size: 23px;
+  }
+
+ 
+ }
+
+ @media (min-width: 983px)
+{ 
+ .flex-md-row {
+     -ms-flex-direction: row!important;
+     flex-direction: row!imp3rtant;
+ }
+ 
+ @media (max-width: 576px) { 
+ .verify  {
+     text-align: center;
+ 
+   }
+ }
+ 
+ @media (min-width: 576px) { 
+ .verify  {
+     margin-left: -25px;
+   }
+ }

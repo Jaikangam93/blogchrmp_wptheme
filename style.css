@@ -1,0 +1,24 @@
+/*
+	Theme Name: Chrmp Blog Theme
+	Author: Jaikangam Malangmei
+	Author URI: https://github.com/Jaikangam93
+	Description: Theme for chrmp blog website 
+	Version: 1.0
+*/
+
+.post-thumbnail img{
+	width:100%;
+	height: auto;
+}
+
+.side-widget{
+	margin-bottom: 20px;
+}
+
+.side-widget li{
+	text-decoration: none;
+	margin-left:-20px; 
+	list-style: none;
+	line-height: 2.5em;
+	border-bottom: 1px dotted #ccc;
+}s
