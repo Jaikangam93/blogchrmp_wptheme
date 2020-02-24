@@ -79,7 +79,7 @@
 
                                                     </span>
 
-                                                <span style="margin-left: 8px;"><i class="fas fa-clock"></i> <?php echo meks_time_ago();?>  </span>
+                                                <span style="margin-left: 8px;"><i class="fas fa-clock"></i> <?php echo get_the_date(); ?> </span>
                                             </div>
                                         </div>
                                     </div>

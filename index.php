@@ -85,7 +85,7 @@
                                                         ?>
 
                                                         </span>
-                                                        <span><i class="fas fa-clock"></i> <?php echo meks_time_ago();?> </span>
+                                                        <span><i class="fas fa-clock"></i><?php echo get_the_date(); ?>   </span>
                                                         <span class="d-block d-md-inline-block float-md-right mt-3 mt-md-0">
 
                                                             <a href="<?php the_permalink(); ?>" class="btn btn-xs btn-primary">Read more...</a>
