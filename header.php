@@ -47,8 +47,6 @@
 		<link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/frontend/vendor/rs-plugin/css/navigation.css">
 
 
-		<!-- Demo CSS -->
-
 		<!-- Skin CSS -->
 		<link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/frontend/css/skins/skin-corporate-5.css">
 

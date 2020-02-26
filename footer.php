@@ -12,7 +12,7 @@
                         <img alt="Porto Website Template" class="img-fluid" src="<?php bloginfo('template_url'); ?>/frontend/img/home/logo-footer.png" width="100" height="50">
                     </a>
                     <hr>
-                    <p>to become a certified human resource management professional</p>
+                    <p>become a certified human resource management professional</p>
                     <hr>
 
                     <div id="wpac-google-review" style=""></div>
@@ -162,8 +162,7 @@
 
 </div>
 
-<!-- Vendor -->
-
+<!-- Vendor --> 
 <script src="<?php bloginfo('template_url'); ?>/frontend/vendor/jquery.appear/jquery.appear.min.js"></script>
 <script src="<?php bloginfo('template_url'); ?>/frontend/vendor/jquery.easing/jquery.easing.min.js"></script>
 <script src="<?php bloginfo('template_url'); ?>/frontend/vendor/jquery-cookie/jquery-cookie.min.js"></script>
