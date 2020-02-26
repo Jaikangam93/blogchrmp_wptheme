@@ -8,16 +8,13 @@
                     <div class="col">
                         <ul class="breadcrumb">
                             <li><a href="https://www.chrmp.com/" style="color: white;">Home</a></li>
-                            <li class="active" style="color: white;"> <a href="https://www.blog.chrmp.com/" style="color: white;" >  Blogs </a> </li>
+                            <li class="active" style="color: white;"> <a href="https://www.blog.chrmp.com/" style="color: white;">  Blogs </a> </li>
                         </ul>
                     </div>
                 </div>
                 <div class="row">
                     <div class="col" style="text-align: center;">
-                        <h1> Category :  <?php foreach((get_the_category()) as $category) {
-                            echo $category->cat_name . ' ';
-                            }
-                            ?> 
+                        <h1> Author by : <?php the_author() ?>
                         </h1>
                     </div>
                 </div>

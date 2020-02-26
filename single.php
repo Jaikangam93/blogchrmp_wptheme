@@ -8,7 +8,7 @@
                     <div class="col">
                         <ul class="breadcrumb">
                             <li><a href="https://www.chrmp.com/" style="color: white;">Home</a></li>
-                            <li class="active" style="color: white;"> Blogs  </li>
+                            <li class="active" style="color: white;"> <a href="https://www.blog.chrmp.com/" style="color: white;" >  Blogs </a> </li>
                         </ul>
                     </div>
                 </div>

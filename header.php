@@ -22,7 +22,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0, shrink-to-fit=no">
 
 		<!-- Web Fonts  -->
-		<link href="https://fonts.googleapis.com/css?family=Roboto:400,300,100,500,700,900" rel="stylesheet" type="text/css">
+		<link href="https://fonts.googleapis.com/css?family=Raleway|Roboto&display=swap" rel="stylesheet">
 
 
 		<!-- Vendor CSS -->
@@ -69,12 +69,10 @@
 		<script src="<?php bloginfo('template_url'); ?>/frontend/super-sidebar/js/jquery.super-sidebar.min.js" type="text/javascript"></script>
 		<!-- End of sidebar assets code -->
 
-
+		
 		<!-- Cards style -->
 		<link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/frontend/bootstrap-card/css/cards-style.css" type="text/css" />
 
-
-		<script type='text/javascript' src='//platform-api.sharethis.com/js/sharethis.js#property=5c9e2b409852eb0011ce9e65&product='inline-share-buttons' async='async'></script>
 	    <?php wp_head(); ?>
 	</head>
 

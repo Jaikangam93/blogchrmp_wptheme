@@ -27,9 +27,4 @@ function init_widgets($id){
 
 add_action('widgets_init', 'init_widgets');
 
- 
-/* Function which displays your post date in time ago format */
-function meks_time_ago() {
-	return human_time_diff( get_the_time( 'U' ), current_time( 'timestamp' ) ).' '.__( 'ago' );
-}
 

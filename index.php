@@ -66,7 +66,7 @@
                                                     <div class="post-meta">
                                                         <span><i class="fas fa-user"></i> By
                                                         <a href="<?php get_author_posts_url(get_the_author_meta('ID')); ?>">
-                                                            <?php the_author(); ?>
+                                                            <?php the_author_posts_link(); ?>
                                                         </a>
                                                         </span>
                                                         <span><i class="fa fa-list-alt"></i>Category :
